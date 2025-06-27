@@ -62,16 +62,16 @@ public class Helper {
     
 
     // Java Streams-  Click an element based on visible text
-    public void clickElementByText(List<WebElement> elements, String text) throws ElementClickInterceptedException {
+    public void clickElementByText(List<WebElement> elements, String text) {
         elements.stream()
-            .filter(el -> el.getText().trim().equalsIgnoreCase(text))
+            .filter(el -> el.isDisplayed() && el.getText().trim().equalsIgnoreCase(text))
             .findFirst()
             .ifPresentOrElse(
                 el -> {
                     try {
-                        el.click();  // normal click
+                        wait.until(ExpectedConditions.elementToBeClickable(el)).click();
                     } catch (ElementNotInteractableException e) {
-                        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", el);  // fallback click
+                        jsExecutor.executeScript("arguments[0].click();", el);
                     }
                 },
                 () -> {
