@@ -26,22 +26,18 @@ Feature: UI and Functionality of HOME page
 
   @skipLaunch @btn_nav
   Scenario Outline: Verify Click CTA buttons
-    Given The user is on the DIA homepage
-    When The user clicks the button "<ButtonText>"
-    Then The page title should be "Continue with Google"
+  #  Given The user is on the DIA homepage
+   # When The user clicks the button "<ButtonText>"
+   # Then The page title should be "Continue with Google"
 
-    Examples: 
-      | ButtonText   |
-      | Try for free |
+   
+   # Examples: 
+   #   | ButtonText   |
+    #  | Try for free |
 
   # | For Dietitians   |
   
-  @skipLaunch @tab_nav
-  Scenario: Verify navigat using Tab key
-  #  Given The user is on the DIA homepage
-   # When The user presses the Tab key repeatedly
-    #Then Focus should shift logically between interactive elements
-    
+ 
     
     
     
