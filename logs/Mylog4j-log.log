@@ -1899,3 +1899,72 @@ java.lang.IllegalStateException: ChainTest endpoint was not provided by property
 [INFO ] 2025-06-27 00:48:59.603 [TestNG-PoolService-7] LoggerLoad - Browser is closed
 [INFO ] 2025-06-27 00:48:59.640 [TestNG-PoolService-5] LoggerLoad - Browser is closed
 [INFO ] 2025-06-27 00:48:59.727 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:04:30.146 [main] Utils - [TestNG] Running:
+  C:\Users\ems11\OneDrive\Desktop\Selenium_Practice\DIA_Sample\testng.xml
+
+[INFO ] 2025-06-27 01:04:30.192 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-06-27 01:04:41.762 [TestNG-PoolService-7] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+[INFO ] 2025-06-27 01:04:41.762 [TestNG-PoolService-2] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+[INFO ] 2025-06-27 01:04:41.785 [TestNG-PoolService-4] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+[INFO ] 2025-06-27 01:04:41.797 [TestNG-PoolService-3] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+[INFO ] 2025-06-27 01:04:41.808 [TestNG-PoolService-2] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ems11\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[INFO ] 2025-06-27 01:04:41.809 [TestNG-PoolService-4] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ems11\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[INFO ] 2025-06-27 01:04:41.809 [TestNG-PoolService-7] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ems11\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[INFO ] 2025-06-27 01:04:41.812 [TestNG-PoolService-3] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ems11\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[INFO ] 2025-06-27 01:04:41.815 [TestNG-PoolService-6] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+[INFO ] 2025-06-27 01:04:41.825 [TestNG-PoolService-5] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+[INFO ] 2025-06-27 01:04:41.828 [TestNG-PoolService-6] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ems11\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[INFO ] 2025-06-27 01:04:41.835 [TestNG-PoolService-5] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ems11\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[INFO ] 2025-06-27 01:04:41.841 [TestNG-PoolService-1] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+[INFO ] 2025-06-27 01:04:41.849 [TestNG-PoolService-1] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ems11\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[INFO ] 2025-06-27 01:04:59.046 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:01.443 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:04.381 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:04.804 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:04.907 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:05.129 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:05.279 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:05.719 [main] LoggerLoad - edge is Running
+[INFO ] 2025-06-27 01:05:06.428 [TestNG-PoolService-5] WebDriverManager - Using msedgedriver 137.0.3296.93 (resolved driver for Edge 137)
+[INFO ] 2025-06-27 01:05:06.439 [TestNG-PoolService-6] WebDriverManager - Using msedgedriver 137.0.3296.93 (resolved driver for Edge 137)
+[INFO ] 2025-06-27 01:05:06.449 [TestNG-PoolService-2] WebDriverManager - Using msedgedriver 137.0.3296.93 (resolved driver for Edge 137)
+[INFO ] 2025-06-27 01:05:06.453 [TestNG-PoolService-5] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ems11\.cache\selenium\msedgedriver\win64\137.0.3296.93\msedgedriver.exe
+[INFO ] 2025-06-27 01:05:06.463 [TestNG-PoolService-6] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ems11\.cache\selenium\msedgedriver\win64\137.0.3296.93\msedgedriver.exe
+[INFO ] 2025-06-27 01:05:06.478 [TestNG-PoolService-2] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ems11\.cache\selenium\msedgedriver\win64\137.0.3296.93\msedgedriver.exe
+[INFO ] 2025-06-27 01:05:06.491 [TestNG-PoolService-3] WebDriverManager - Using msedgedriver 137.0.3296.93 (resolved driver for Edge 137)
+[INFO ] 2025-06-27 01:05:06.507 [TestNG-PoolService-4] WebDriverManager - Using msedgedriver 137.0.3296.93 (resolved driver for Edge 137)
+[INFO ] 2025-06-27 01:05:06.518 [TestNG-PoolService-3] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ems11\.cache\selenium\msedgedriver\win64\137.0.3296.93\msedgedriver.exe
+[INFO ] 2025-06-27 01:05:06.531 [TestNG-PoolService-4] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ems11\.cache\selenium\msedgedriver\win64\137.0.3296.93\msedgedriver.exe
+[INFO ] 2025-06-27 01:05:06.533 [TestNG-PoolService-7] WebDriverManager - Using msedgedriver 137.0.3296.93 (resolved driver for Edge 137)
+[INFO ] 2025-06-27 01:05:06.559 [TestNG-PoolService-7] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ems11\.cache\selenium\msedgedriver\win64\137.0.3296.93\msedgedriver.exe
+[INFO ] 2025-06-27 01:05:06.840 [TestNG-PoolService-1] WebDriverManager - Using msedgedriver 137.0.3296.93 (resolved driver for Edge 137)
+[INFO ] 2025-06-27 01:05:06.856 [TestNG-PoolService-1] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ems11\.cache\selenium\msedgedriver\win64\137.0.3296.93\msedgedriver.exe
+[INFO ] 2025-06-27 01:05:18.817 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:21.151 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:21.275 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:21.330 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:21.380 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:21.396 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:21.478 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:21.590 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-06-27 01:05:23.490 [TestNG-PoolService-6] WebDriverManager - Using chromedriver 138.0.7204.49 (resolved driver for Chrome 138)
+[INFO ] 2025-06-27 01:05:23.492 [TestNG-PoolService-5] WebDriverManager - Using chromedriver 138.0.7204.49 (resolved driver for Chrome 138)
+[INFO ] 2025-06-27 01:05:23.501 [TestNG-PoolService-3] WebDriverManager - Using chromedriver 138.0.7204.49 (resolved driver for Chrome 138)
+[INFO ] 2025-06-27 01:05:23.503 [TestNG-PoolService-2] WebDriverManager - Using chromedriver 138.0.7204.49 (resolved driver for Chrome 138)
+[INFO ] 2025-06-27 01:05:23.506 [TestNG-PoolService-7] WebDriverManager - Using chromedriver 138.0.7204.49 (resolved driver for Chrome 138)
+[INFO ] 2025-06-27 01:05:23.510 [TestNG-PoolService-1] WebDriverManager - Using chromedriver 138.0.7204.49 (resolved driver for Chrome 138)
+[INFO ] 2025-06-27 01:05:23.506 [TestNG-PoolService-4] WebDriverManager - Using chromedriver 138.0.7204.49 (resolved driver for Chrome 138)
+[INFO ] 2025-06-27 01:05:23.560 [TestNG-PoolService-2] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ems11\.cache\selenium\chromedriver\win64\138.0.7204.49\chromedriver.exe
+[INFO ] 2025-06-27 01:05:23.566 [TestNG-PoolService-7] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ems11\.cache\selenium\chromedriver\win64\138.0.7204.49\chromedriver.exe
+[INFO ] 2025-06-27 01:05:23.566 [TestNG-PoolService-6] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ems11\.cache\selenium\chromedriver\win64\138.0.7204.49\chromedriver.exe
+[INFO ] 2025-06-27 01:05:23.567 [TestNG-PoolService-5] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ems11\.cache\selenium\chromedriver\win64\138.0.7204.49\chromedriver.exe
+[INFO ] 2025-06-27 01:05:23.567 [TestNG-PoolService-3] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ems11\.cache\selenium\chromedriver\win64\138.0.7204.49\chromedriver.exe
+[INFO ] 2025-06-27 01:05:23.570 [TestNG-PoolService-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ems11\.cache\selenium\chromedriver\win64\138.0.7204.49\chromedriver.exe
+[INFO ] 2025-06-27 01:05:23.574 [TestNG-PoolService-4] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ems11\.cache\selenium\chromedriver\win64\138.0.7204.49\chromedriver.exe
+[INFO ] 2025-06-27 01:05:34.968 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:35.046 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:35.048 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:35.114 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:35.114 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:35.116 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-27 01:05:36.680 [TestNG-PoolService-4] LoggerLoad - Browser is closed
