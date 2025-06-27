@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -49,7 +51,7 @@ public class Helper {
     }
 
    // Java Streams- Get all visible texts from a list of WebElements
-    public static List<String> getTexts(List<WebElement> elements) {
+    public List<String> getTexts(List<WebElement> elements) {
         return elements.stream()
                        .map(WebElement::getText)
                        .map(String::trim)
@@ -60,11 +62,22 @@ public class Helper {
     
 
     // Java Streams-  Click an element based on visible text
-    public static void clickElementByText(List<WebElement> elements, String targetText) {
+    public void clickElementByText(List<WebElement> elements, String text) throws ElementClickInterceptedException {
         elements.stream()
-                .filter(el -> el.getText().trim().equalsIgnoreCase(targetText))
-                .findFirst()
-                .orElseThrow(() -> new RuntimeException("Element not found with text: " + targetText))
-                .click();
+            .filter(el -> el.getText().trim().equalsIgnoreCase(text))
+            .findFirst()
+            .ifPresentOrElse(
+                el -> {
+                    try {
+                        el.click();  // normal click
+                    } catch (ElementNotInteractableException e) {
+                        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", el);  // fallback click
+                    }
+                },
+                () -> {
+                    throw new RuntimeException("Button with text '" + text + "' not found");
+                }
+            );
     }
+
 }

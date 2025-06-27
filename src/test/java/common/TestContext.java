@@ -41,12 +41,13 @@ public class TestContext {
         return baseUrl;
     }
 
-   public Home_Page getHome_Page() {
+    public Home_Page getHome_Page() {
         if (home_page == null) {
-        	home_page = new Home_Page(getDriver());
-       }
-       return home_page;
+            home_page = new Home_Page(this);  // ✅ pass the full context
+        }
+        return home_page;
     }
+
    public void resetPages() {
 	    home_page = null;
 	   

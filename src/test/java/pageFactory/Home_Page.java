@@ -1,96 +1,55 @@
 package pageFactory;
 
 import java.util.List;
-import java.util.stream.Collectors;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import common.Helper;
+import common.TestContext;
 
 public class Home_Page {
-	
-	 WebDriver driver;
-	 
-	 @FindBy(className ="navbar-logo") WebElement diaLogo;
-	 @FindBy(css = "nav a") List<WebElement> navList;
-	 @FindBy(xpath = "//a[contains(@class, 'btn')]") List<WebElement> navButtons;
 
-	 
-	 @FindBy(className ="auth-provider-text") WebElement loginGoogle;
-	 @FindBy(xpath = "//a[@class='modern-brand']/span[text()='DIA']") WebElement homeTextDIA;
-	 
-	// //a[@class='modern-brand']/span[text()='DIA']
-	 
-	// @FindBy(xpath = "//a[contains(@class, 'modern-nav-link')]") List<WebElement> navList;
-	
+    private WebDriver driver;
+    private Helper helper;
 
-	
-	 
-	 public Home_Page(WebDriver driver) {
-	        this.driver = driver;
-	        PageFactory.initElements(driver, this);
-	    }
-	    
-	 
-	 public boolean isLogoVisible() {
-		    return diaLogo.isDisplayed();
-		}
-	 
-	 
-	 public List<String> getNavLinkTexts() {
-		    return Helper.getTexts(navList);
-		}
-	 
-	 public void clickNavByText(String linkText) {
-		    Helper.clickElementByText(navList, linkText);
-		}
+    @FindBy(className = "navbar-logo") private WebElement diaLogo;
+    @FindBy(css = "nav a") private List<WebElement> navList;
+    @FindBy(xpath = "//a[contains(@class, 'btn')]") private List<WebElement> navButtons;
+    @FindBy(className = "auth-provider-text") private WebElement loginGoogle;
+    @FindBy(xpath = "//a[@class='modern-brand']/span[text()='DIA']") private WebElement homeTextDIA;
 
-		public List<String> getNavBtnTexts() {
-		    return Helper.getTexts(navButtons);
-		}
+    public Home_Page(TestContext context) {
+        this.driver = context.getDriver();
+        this.helper = context.getHelper();  // ✅ declared and initialized
+        PageFactory.initElements(driver, this);
+    }
 
-		public void clickNavButton(String btn) {
-		   Helper.clickElementByText(navButtons, btn);
-		}
+    public boolean isLogoVisible() {
+        return diaLogo.isDisplayed();
+    }
 
-	 
-/*	 public List<String> getNavLinkTexts() {
-		    return navList.stream()
-		                   .map(WebElement::getText)
-		                   .collect(Collectors.toList());
-		}
-	 public void clickNavByText(String linkText) {
-	        navList.stream()
-	               .filter(el -> el.getText().trim().equalsIgnoreCase(linkText))
-	               .findFirst()
-	               .orElseThrow(() -> new RuntimeException("Nav link not found: " + linkText))
-	               .click();
-	    }
-	 
-	 public List<String> getNavBtnTexts() {
-		    return navButtons.stream()
-		                   .map(WebElement::getText)
-		                   .collect(Collectors.toList());
-		}
-	 
-	 public void clickNavButton(String btn) {
-		 navButtons.stream()
-	               .filter(el -> el.getText().trim().equalsIgnoreCase(btn))
-	               .findFirst()
-	               .orElseThrow(() -> new RuntimeException("Button not found: " + btn))
-	               .click();
-	    }
-	*/ 
-	 
-	 public String homeTextDIAText() {
-	        return homeTextDIA.getText(); 
-	    }
-	 
-	 public String getGoogleLoginText() {
-	        return loginGoogle.getText(); // e.g., "Continue with Google"
-	    }
-	 
-	
+    public List<String> getNavLinkTexts() {
+        return helper.getTexts(navList);  // ✅ use instance, not static
+    }
+
+    public void clickNavByText(String linkText) {
+        helper.clickElementByText(navList, linkText);  // ✅ fixed
+    }
+
+    public List<String> getNavBtnTexts() {
+        return helper.getTexts(navButtons);
+    }
+
+    public void clickNavButton(String btn) {
+        helper.clickElementByText(navButtons, btn);
+    }
+
+    public String homeTextDIAText() {
+        return homeTextDIA.getText();
+    }
+
+    public String getGoogleLoginText() {
+        return loginGoogle.getText();
+    }
 }
