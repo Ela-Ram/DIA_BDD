@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
     plugin = {
         "pretty",
         "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+       // "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         "json:target/CucumberReports/DIAJson.json",
         "html:target/CucumberReports/DIA.html",
         "com.aventstack.chaintest.plugins.ChainTestCucumberListener:"
