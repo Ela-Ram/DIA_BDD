@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-27T01:39:34 CDT" name="Suite" finished-at="2025-06-27T01:40:19 CDT" duration-ms="44725">
+  <suite started-at="2025-06-27T16:31:42 CDT" name="Suite" finished-at="2025-06-27T16:32:31 CDT" duration-ms="49065">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
@@ -10,9 +10,9 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-27T01:39:34 CDT" name="TestFirefox" finished-at="2025-06-27T01:40:01 CDT" duration-ms="26704">
+    <test started-at="2025-06-27T16:31:42 CDT" name="TestFirefox" finished-at="2025-06-27T16:32:11 CDT" duration-ms="28575">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:34 CDT" name="defineBrowser" finished-at="2025-06-27T01:39:34 CDT" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:42 CDT" name="defineBrowser" finished-at="2025-06-27T16:31:42 CDT" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,114 +23,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:34 CDT" name="setUpClass" finished-at="2025-06-27T01:39:44 CDT" duration-ms="9294" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:42 CDT" name="setUpClass" finished-at="2025-06-27T16:31:52 CDT" duration-ms="9261" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@52559a69]]>
+                <![CDATA[org.testng.TestRunner@5f366587]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:39:59 CDT" duration-ms="14917" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify the logo is displayed in the top-left corner"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:39:58 CDT" duration-ms="14237" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigated page title after clicking nav link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:01 CDT" duration-ms="16872" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigated page title after clicking nav link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:39:59 CDT" duration-ms="15504" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigated page title after clicking nav link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:39:44 CDT" duration-ms="364" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigat using Tab key"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:39:57 CDT" duration-ms="13292" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigated page title after clicking nav link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:39:56 CDT" duration-ms="11947" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:31:52 CDT" duration-ms="372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,7 +50,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:39:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:00 CDT" duration-ms="15904" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:06 CDT" duration-ms="14769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the logo is displayed in the top-left corner"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:07 CDT" duration-ms="14895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigated page title after clicking nav link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:07 CDT" duration-ms="15745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigated page title after clicking nav link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:10 CDT" duration-ms="18448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigated page title after clicking nav link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:08 CDT" duration-ms="15896" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,15 +130,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T01:40:01 CDT" name="tearDownClass" finished-at="2025-06-27T01:40:01 CDT" duration-ms="451" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:31:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:10 CDT" duration-ms="18813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigated page title after clicking nav link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@6e6d5d29]" started-at="2025-06-27T16:32:10 CDT" name="tearDownClass" finished-at="2025-06-27T16:32:11 CDT" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.TestRunner -->
     </test> <!-- TestFirefox -->
-    <test started-at="2025-06-27T01:40:01 CDT" name="TestEdge" finished-at="2025-06-27T01:40:12 CDT" duration-ms="10758">
+    <test started-at="2025-06-27T16:32:11 CDT" name="TestEdge" finished-at="2025-06-27T16:32:23 CDT" duration-ms="11967">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="defineBrowser" finished-at="2025-06-27T01:40:01 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="defineBrowser" finished-at="2025-06-27T16:32:11 CDT" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,34 +165,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="setUpClass" finished-at="2025-06-27T01:40:01 CDT" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="setUpClass" finished-at="2025-06-27T16:32:11 CDT" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@285583d4]]>
+                <![CDATA[org.testng.TestRunner@6003ad65]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:12 CDT" duration-ms="10426" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigated page title after clicking nav link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:11 CDT" duration-ms="9439" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:21 CDT" duration-ms="10000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -224,7 +192,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:12 CDT" duration-ms="10448" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:23 CDT" duration-ms="11846" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -240,39 +208,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:10 CDT" duration-ms="8690" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigated page title after clicking nav link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:12 CDT" duration-ms="10329" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigated page title after clicking nav link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:12 CDT" duration-ms="10597" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:11 CDT" duration-ms="128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -288,7 +224,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:11 CDT" duration-ms="9772" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:23 CDT" duration-ms="11697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigated page title after clicking nav link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:23 CDT" duration-ms="11777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigated page title after clicking nav link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:23 CDT" duration-ms="11732" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -304,11 +272,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:01 CDT" duration-ms="63" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:23 CDT" duration-ms="11808" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify navigat using Tab key"]]>
+                <![CDATA["Verify navigated page title after clicking nav link"]]>
               </value>
             </param>
             <param index="1">
@@ -320,15 +288,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T01:40:12 CDT" name="tearDownClass" finished-at="2025-06-27T01:40:12 CDT" duration-ms="57" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@278bb07e]" started-at="2025-06-27T16:32:23 CDT" name="tearDownClass" finished-at="2025-06-27T16:32:23 CDT" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.TestRunner -->
     </test> <!-- TestEdge -->
-    <test started-at="2025-06-27T01:40:12 CDT" name="TestChrome" finished-at="2025-06-27T01:40:19 CDT" duration-ms="7196">
+    <test started-at="2025-06-27T16:32:23 CDT" name="TestChrome" finished-at="2025-06-27T16:32:31 CDT" duration-ms="8445">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="defineBrowser" finished-at="2025-06-27T01:40:12 CDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="defineBrowser" finished-at="2025-06-27T16:32:23 CDT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -339,50 +307,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="setUpClass" finished-at="2025-06-27T01:40:12 CDT" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="setUpClass" finished-at="2025-06-27T16:32:23 CDT" duration-ms="46" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1039bfc4]]>
+                <![CDATA[org.testng.TestRunner@2ec99035]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:19 CDT" duration-ms="6801" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify the navigation bar items are present"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:19 CDT" duration-ms="6882" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigated page title after clicking nav link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:19 CDT" duration-ms="6794" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:30 CDT" duration-ms="7075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -398,7 +334,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:19 CDT" duration-ms="6905" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:31 CDT" duration-ms="7781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the navigation bar items are present"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:31 CDT" duration-ms="8161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -414,7 +366,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:19 CDT" duration-ms="6807" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:31 CDT" duration-ms="8311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -430,7 +382,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:19 CDT" duration-ms="6795" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:31 CDT" duration-ms="8025" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -446,7 +398,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:19 CDT" duration-ms="7086" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:31 CDT" duration-ms="8011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigated page title after clicking nav link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI and Functionality of HOME page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T16:32:23 CDT" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -462,23 +430,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-27T01:40:12 CDT" duration-ms="131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify navigat using Tab key"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UI and Functionality of HOME page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T01:40:19 CDT" name="tearDownClass" finished-at="2025-06-27T01:40:19 CDT" duration-ms="51" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@3381b4fc]" started-at="2025-06-27T16:32:31 CDT" name="tearDownClass" finished-at="2025-06-27T16:32:31 CDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
